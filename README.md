@@ -1,1 +1,6 @@
 # TDA-Thesis
+This research is mainly focused on applications of topological data analysis (TDA) in the area of partial differential equations. The ion bombadment of the semiconductor surfaces results in a near-hexagonal nanodot pattern formation. In particular, patterns formed by the bombardment of germanium are modeled by the anisotropic Kuramoto-Sivashinsky type equation, the Bradley-Shipman equation[#neville2017topological]
+
+$$\frac{\partial u}{\partial t}=-\nabla^{2}u+\kappa\nabla^{2}\nabla^{2}u-\sigma\nabla^{2}(\nabla^{2}u)^{2}+\delta(\partial_{x}u_{x}^{3}+\partial_{y}u_{y}^{3}),$$
+
+where $u$ is the surface height, \kappa,\sigma,\delta are parameters. This process has potential to be a novel, cost-effective and efficient method manufacturing nanopatterns, however the influence of the parameters and the geometry of the pattern needs to be better understood. Thus, the main goal of the thesis is to study and classify the values for the parameters based on the time evolution of the model. The preceding works by Neville and Shipman [#neville2017topological] described the influence of \sigma on surface patterns and provided a measure to help identify the parameter value of \sigma from the surface structure. The main focus of the current thesis will be on studying the \kappa and \delta parameters, in particular, their identification from a surface pattern.
